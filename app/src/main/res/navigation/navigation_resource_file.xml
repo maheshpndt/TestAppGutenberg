@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_resource_file"
+    app:startDestination="@id/fragmentListOfBooks">
+
+    <fragment
+        android:id="@+id/fragmentListOfBooks"
+        android:name="com.example.gutendex.FragmentListOfBooks"
+        android:label="FragmentListOfBooks" />
+    <fragment
+        android:id="@+id/fragmentDetailsListOfBook"
+        android:name="com.example.gutendex.FragmentDetailsListOfBook"
+        android:label="fragment_details_list_of_book"
+        tools:layout="@layout/fragment_details_list_of_book" />
+</navigation>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gutenberg Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_no_books">Books not found</string>
+
+    <string name="string_sub_title_genre">A social cataloging website that allows you to freely search its database of books, annotations, and review.</string>
+    <string name="hint_search_view">Search</string>
+    <string name="error_noviewer">No viewable version available</string>
+    <string name="error_internet">No internet connection</string>
+</resources>
